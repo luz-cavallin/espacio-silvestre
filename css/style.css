@@ -1,6 +1,7 @@
 
 body {
     background-color: #90af61;
+    width: 100%;
 }
 
 
@@ -32,7 +33,7 @@ body {
     text-decoration: none;
 }
 
-@media (min-width: 320px) and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 480px) {
     #informacion {
         margin: 50px 25px;
         font-size: 15px;
@@ -70,7 +71,45 @@ body {
     
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+    #informacion {
+        margin: 50px 25px;
+        font-size: 15px;
+    }
+    #intro {
+        padding: 40px;
+        text-align: center;
+        font-size: 15px;
+    }
+    #quienesSomos {
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px ;
+        margin: auto;
+    }
+
+    #quienesSomos .foto {
+        width: 700px;
+    }
+    #quienesSomos .contenido {
+        width: 700px;
+    }
+    #porqueVenir {
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px ;
+        margin: auto;
+    }
+    #porqueVenir .foto {
+        width: 700px;
+    }
+    #porqueVenir {
+        width: 700px;
+    }
+
+}
+
+@media (min-width: 1024px) {
     #informacion {
         margin: 50px 25px;
         font-size: 18px;
@@ -86,7 +125,7 @@ body {
 
 #quienesSomos {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row;
     width: 100vw;
     gap: 50px;
     padding: 50px;
@@ -96,7 +135,7 @@ body {
 
 #porqueVenir {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row;
     width: 100vw;
     gap: 50px;
     padding: 50px;
