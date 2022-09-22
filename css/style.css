@@ -1,16 +1,19 @@
-
-body {
-    background-color: #90af61;
-    width: 100%;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 
+
+
+body {
+    background-color: #90af61;
+    
+}
 
 .logo {
     width: 100px;
 }
-
-
 
 .bg-propio {
     background-image: url(../img/56c5ff10-980c-462f-ac97-f480f8b0d814.jpg);
@@ -23,7 +26,6 @@ body {
    /* background-position: top left; */ /* acomodo la img en el eje X e Y */
 }
 
-
 #informacion .titulo {
     margin-bottom: 15px;
 }
@@ -32,6 +34,26 @@ body {
     color: black;
     text-decoration: none;
 }
+.contenido {
+    width: 100%;
+}
+
+.foto {
+    width: 100%;
+}
+
+.foto img {
+    width: 100%;
+}
+
+.ubicacion {
+    width: 100%;
+}
+
+ .ubicacion .maps {
+    width: 100%;
+    height: 300px;
+ }
 
 @media (min-width: 320px) and (max-width: 600px) {
     #informacion {
@@ -53,10 +75,9 @@ body {
         gap: 50px;
         padding: 25px;
         align-content: center;
-        font-size: 15px;
-        
-       
+        font-size: 15px;     
     }
+
     #porqueVenir {
         width: 100%;
         display: flex;
@@ -68,9 +89,8 @@ body {
         padding: 25px;
         align-content: center;
         font-size: 15px;
-        
-
     }
+
     #veniAConocernos {
         display: flex;
         flex-flow: column;
@@ -81,14 +101,9 @@ body {
         gap: 50px;
         padding: 25px;
         align-content: center;
-        font-size: 15px;
-        
-    }
-    
-    
+        font-size: 15px;       
+    }    
 }
-
-
 
 @media (min-width: 600px) {
     #informacion {
@@ -110,6 +125,7 @@ body {
         justify-content: center;
         font-size: 18px;
     }
+
     #quienesSomos .contenido.foto {
         width: 100%;
     }
@@ -124,6 +140,7 @@ body {
         align-items: center;
         font-size: 18px;
     }
+    
     #veniAConocernos {
         display: flex;
         flex-direction: column;
@@ -134,39 +151,155 @@ body {
         align-items: center;
         margin-top: 50px;
         font-size: 18px;
+    }       
+}
+
+#header {
+    background-color: #D6AD6F;
+    padding: 20px; 
+    margin-bottom: 25px;
+    position: relative;
+    height: 100px;  
+}
+
+#header .logo {
+    display: inline;
+    position: absolute;
+    left: 10%;   
+}
+
+#header .logo img {
+    width: 100px;
+    height: auto;
+}
+
+#header .menu {
+    display: inline;
+    position: absolute;
+    left: 70%;
+    top: 50%;   
+}
+
+#header .menu ul{
+    display: inline;
+    margin-bottom: 50px;
+}
+
+header .menu ul li { 
+    display: inline; 
+}
+
+#header .menu ul li a {
+    color:black;
+    text-decoration: none; 
+}
+
+#header .menu ul li a:hover { 
+    color: white;
+
+}
+
+
+#footer {
+    height: 150px;
+    position: relative;
+    top: 25px;
+    background-image: url("../img/56c5ff10-980c-462f-ac97-f480f8b0d814.jpg");
+}
+
+#footer .redesSociales {
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: 50%;
+}
+#footer .copy {
+    display: inline;
     
-    }
     
-        
+}
+#footer .copy p {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+#footer .logo {
+    display: inline;
+    
+}
+#footer .logo img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 90%;
+    top: 15%;   
+}
+    
+
+/* Servicios */
+
+#intro--serv {
+    text-align: center;
+    margin: 100px 25px;
+}
+
+section .cabanas {
+    text-align: center;
+    color: #D6AD6F;
+}
+.foto--cabana {
+    display: inline-block;
+    width: 80%;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+section .foto--cabana img {
+    width: 300px;
+    height: auto;
+    margin: 50px 25px;
+}
+
+section .casaCampo {
+    text-align: center;
+    color: #D6AD6F;
+
+}
+section .foto--casa {
+    display: inline-block;
+    width: 800px;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+section .foto--casa img {
+    width: 100%;
+    height: auto;
+    margin: 50px 50px;
+    position: relative;
+    left: 150px;
+}
+
+section .foto--exterior {
+    display: inline-block;
+    width: 800px;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+section .foto--exterior img {
+    width: 300px;
+    height: auto;
+    margin: 50px 25px;
+    position: relative;
+    left: 200px;
 }
 
 
-
-.contenido {
-    width: 100%;
-}
-
-.foto {
-    width: 100%;
-}
-.foto img {
-    width: 100%;
-}
-
-
-
-
-
-
-
-.ubicacion {
-    width: 100%;
-}
-
- .ubicacion .maps {
-    width: 100%;
-    height: 300px;
- }
 
 
 
