@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-light navbar-expand-lg bg-propio opacity-75">
+      <div class="container-fluid"> 
+        <a class="navbar-brand" href="#"> <img src="../img/ESPACIO SILVESTRE.png" alt="logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse e-0" id="navbarSupportedContent" >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> 
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Cabañas Boutique</a></li>
+                <li><a class="dropdown-item" href="#">Casa de Campo</a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Fotos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reseñas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="informacion">
+        <div>
+            <h1 class="titulo">Informacion de contacto</h1>
+            <p>Nos alegra que quieras conocernos!</p>
+        </div>
+        <div>
+            <p>Dejanos tus datos y nos pondremos en contacto a la brevedad</p>
+        </div>
+  </section>
+
+  <form action="enviar.php" class="d-flex flex-column p-4 w-50">
+    <div class="row">
+      <div class="col mb-3 w-25">
+        <label for="nombre" class="form-label ">Nombre</label>
+        <input type="text" class="form-control" placeholder="Ingrese su nombre" aria-label="Nombre" id="nombre">
+      </div>
+      <div class="col mb-3 w-25">
+        <label for="apellido" class="form-label ">Apellido</label>
+        <input type="text" class="form-control" placeholder="Ingrese su apellido" aria-label="Apellido" id="Apellido">
+      </div>
+    </div>
+    <div class="mb-3 w-50">
+      <label for="mail" class="form-label ">Email</label>
+      <input type="email" class="form-control" id="mail" placeholder="Ingrese su mail">
+    </div>
+    <div class="w-100">
+      <label for="consulta" class="form-label">Consulta</label>
+      <textarea class="form-control" id="consulta" rows="3" placeholder="Para una mejor gestión ingrese la cantidad de personas y la fecha de ingreso y egreso"></textarea>
+    </div>
+  </form>
+  
+  <div class="container-fluid">
+    <div class="row p-5 bg-dark text-white opacity-75 mt-4">
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h3">Espacio Silvestre</p>
+        <p class="text-secondary">Los Algarrobos, esq. Siempre Verde</p>
+        <p class="text-secondary">La Granja, Córdoba, Argentina</p>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Redes Sociales</p>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="#">Instagram</a>
+        </div>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="#">Facebook</a>
+        </div>   
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Copy</p>
+        <p class="text-secondary">&copy; 2022</p>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Contacto</p>
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="#">WhatsApp 1</a>
+        </div> 
+        <div class="mb-2">
+          <a class="text-secondary text-decoration-none" href="#">WhatsApp 2</a>
+        </div> 
+      </div>
+    </div>
+  </div>
+  
+     
+   
+    
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+
+body {
+    background-color: #90af61;
+}
+
+
+
+.logo {
+    width: 100px;
+}
+
+
+
+.bg-propio {
+    background-image: url(../img/56c5ff10-980c-462f-ac97-f480f8b0d814.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat; /* no se repite la img, repeat si se repite */
+    background-size: cover; /* se estira y se acomoda siempre en proporcion del contenedor */
+   /* con el valor contain, pasa lo mismo pero en altura, la img busca mostrarse completa, no se recorta */
+   /*  con el valor auto, queda el tamaño real de la img */
+   /* background-position: top left; */ /* acomodo la img en el eje X e Y */
+}
+
+
+#informacion .titulo {
+    margin-bottom: 15px;
+}
+
+#intro .boton a {
+    color: black;
+    text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    #informacion {
+        margin: 50px 25px;
+        font-size: 15px;
+    }
+    #intro {
+        padding: 40px;
+        text-align: center;
+        font-size: 15px;
+    }
+    #quienesSomos {
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px ;
+        margin: auto;
+    }
+
+    #quienesSomos .foto {
+        width: 300px;
+    }
+    #quienesSomos .contenido {
+        width: 300px;
+    }
+    #porqueVenir {
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px ;
+        margin: auto;
+    }
+    #porqueVenir .foto {
+        width: 300px;
+    }
+    #porqueVenir {
+        width: 300px;
+    }
+    
+}
+
+@media (min-width: 600px) {
+    #informacion {
+        margin: 50px 25px;
+        font-size: 18px;
+    }
+    #intro {
+        padding: 40px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+        
+}
+
+#quienesSomos {
+    display: flex;
+    flex-direction: row wrap;
+    width: 100vw;
+    gap: 50px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#porqueVenir {
+    display: flex;
+    flex-direction: row wrap;
+    width: 100vw;
+    gap: 50px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido {
+    width: 500px;
+}
+
+.foto {
+    width: 600px;
+}
+.foto img {
+    width: 100%;
+}
+
+
+
+#veniAConocernos {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    gap: 50px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+
+
+.ubicacion {
+    width: 800px;
+}
+
+ .ubicacion .maps {
+    width: 100%;
+    height: 300px;
+ }
+
+
+
+
