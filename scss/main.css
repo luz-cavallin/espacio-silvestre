@@ -208,6 +208,9 @@
   #intro--serv p {
     color: #35472A;
   }
+  #alojamiento--cabana {
+    width: 100%;
+  }
   #alojamiento--cabana .cabanas {
     text-align: center;
     color: #5E2D16;
@@ -224,15 +227,17 @@
     gap: 50px;
     padding: 50px;
     margin: 15px;
-    width: 100%;
   }
   #alojamiento--cabana .foto--cabana img {
     width: 100%;
   }
-  #alojamiento--cabana .descrpcion {
+  #alojamiento--cabana .descripcion {
     text-align: center;
     font-size: 18px;
     color: #5E2D16;
+  }
+  #alojamiento--casa {
+    width: 100%;
   }
   #alojamiento--casa .casaCampo {
     text-align: center;
@@ -249,11 +254,9 @@
     align-content: center;
     gap: 50px;
     padding: 50px;
-    margin: 25px;
-    width: 500px;
   }
   #alojamiento--casa .foto--casa div {
-    width: 700px;
+    width: 100%;
   }
   #alojamiento--casa .foto--casa div img {
     width: 100%;
