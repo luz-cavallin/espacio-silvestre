@@ -5,82 +5,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fotos</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../scss/main.css">
 </head>
 <body>
     <header id="header">
-        <div class="logo">
-            <img src="../img/ESPACIO SILVESTRE.png" alt="espacioSilvestre">
-        </div>
-
-        <nav class="menu">
-            <ul>
-                <li><a href="../index.html">Nosotros</a></li>
-                <li><a href="../paginas/servicios.html">Servicios</a></li>
-                <li><a href="../paginas/fotos.html">Fotos</a></li>
-                <li><a href="../paginas/reseñas.html">Reseñas</a></li>
-                <li><a href="../paginas/contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-light navbar-expand-lg bg-propio opacity-75">
+          <div class="container-fluid"> 
+            <a class="navbar-brand"> <img src="../img/ESPACIO SILVESTRE.png" alt="logo" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse e-0" id="navbarSupportedContent" >
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> 
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./paginas/servicios.html">Cabañas Boutique</a></li>
+                    <li><a class="dropdown-item" href="./paginas/servicios.html">Casa de Campo</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                  </ul> 
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./paginas/fotos.html">Fotos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./paginas/reseñas.html">Reseñas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
-        
-    </header>
-
-    <section>
-
-        <div>
-            <h3>Fotos interior cabañas</h3>
-        </div>
-        <div>
-            <img src="#" alt="">
-            <p>Aqui van muchas fotos de interior</p>
-        </div>
-        
-    </section>
-
-    <section>
-        <div>
-            <h3>Fotos exterior cabañas</h3>
-        </div>
-        <div class="foto--cabana">
-            <img src="../img/IMG_4148_Original (1).HEIC" alt="exterior cabana">
-            <p>Aqui van fotos de exterior</p>
-        </div>
-    </section>
-
-    <section>
-        <div>
-            <h3>Fotos interior casa</h3>
-        </div>
-        <div>
-            <img src="#" alt="">
-            <p>Aqui van fotos interior de la casa</p>
-        </div>
-    </section>
-
-    <section>
-        <div>
-            <h3>Fotos exterior casa</h3>
-        </div>
-        <div>
-            <img src="#" alt="">
-            <p>Aqui van fotos exterior de la casa</p>
-        </div>
-    </section>
-
-    <footer id="footer">
-        <div class="redesSociales">
-           <a href="https://www.instagram.com/espaciosilvestrecomplejo/" target="_blank">Instagram</a>
-           <a href="https://www.facebook.com/espaciosilvestrecomplejo" target="_blank">Facebook</a>
-       </div>
-       <div class="copy">
-           <p>&copy; 2022</p>
-       </div>
-       <div class="logo">
-           <img src="../img/ESPACIO SILVESTRE.png" alt="Logo">
-       </div>
-   </footer>
-
+      </header>
     
 
+    <section>
+        <div>
+            <h3>Cabañas Boutique</h3>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>  
+    </section>
+
+
+    <section>
+        <div>
+            <h3>Casa de Campo</h3>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+
+    <div class="container-fluid">
+        <div class="row p-5 bg-dark text-white opacity-75 mt-5">
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="h3">Espacio Silvestre</p>
+            <p class="text-secondary">Los Algarrobos, esq. Siempre Verde</p>
+            <p class="text-secondary">La Granja, Córdoba, Argentina</p>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="h5 mb-3">Redes Sociales</p>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="https://www.instagram.com/espaciosilvestrecomplejo/">Instagram</a>
+            </div>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">Facebook</a>
+            </div>   
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="h5 mb-3">Copy</p>
+            <p class="text-secondary">&copy; 2022</p>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <p class="h5 mb-3">Contacto</p>
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">WhatsApp 1</a>
+            </div> 
+            <div class="mb-2">
+              <a class="text-secondary text-decoration-none" href="#">WhatsApp 2</a>
+            </div> 
+          </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
