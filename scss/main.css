@@ -153,12 +153,12 @@
     gap: 50px;
     padding: 25px;
     margin: 15px;
-    width: 700px;
+    min-width: 400px;
   }
   #alojamiento--cabana .foto--cabana img {
     width: 100%;
   }
-  #alojamiento--cabana .descrpcion {
+  #alojamiento--cabana .descripcion {
     text-align: center;
     font-size: 15px;
     color: #5E2D16;
@@ -172,8 +172,8 @@
   }
   #alojamiento--casa .foto--casa {
     display: flex;
-    width: 700px;
     margin: 15px;
+    min-width: 400px;
   }
   #alojamiento--casa .foto--casa img {
     width: 100%;
@@ -187,12 +187,12 @@
     gap: 50px;
     padding: 25px;
     margin: 15px;
-    width: 700px;
+    min-width: 400px;
   }
   #alojamiento--casa .foto--exterior img {
     width: 100%;
   }
-  #alojamiento--casa .descrpcion {
+  #alojamiento--casa .descripcion {
     text-align: center;
     font-size: 15px;
     color: #5E2D16;
@@ -208,9 +208,6 @@
   #intro--serv p {
     color: #35472A;
   }
-  #alojamiento--cabana {
-    width: 100%;
-  }
   #alojamiento--cabana .cabanas {
     text-align: center;
     color: #5E2D16;
@@ -221,14 +218,18 @@
   #alojamiento--cabana .foto--cabana {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
     gap: 50px;
     padding: 50px;
-    margin: 15px;
+    margin: auto;
+    min-width: 768px;
   }
-  #alojamiento--cabana .foto--cabana img {
+  #alojamiento--cabana .foto--cabana div {
+    width: 100%;
+  }
+  #alojamiento--cabana .foto--cabana div img {
     width: 100%;
   }
   #alojamiento--cabana .descripcion {
@@ -236,12 +237,10 @@
     font-size: 18px;
     color: #5E2D16;
   }
-  #alojamiento--casa {
-    width: 100%;
-  }
   #alojamiento--casa .casaCampo {
     text-align: center;
     color: #5E2D16;
+    margin-top: 50px;
   }
   #alojamiento--casa .casaCampo p {
     color: #35472A;
@@ -254,6 +253,9 @@
     align-content: center;
     gap: 50px;
     padding: 50px;
+    margin: auto;
+    min-width: 768px;
+    max-width: 1000px;
   }
   #alojamiento--casa .foto--casa div {
     width: 100%;
@@ -262,7 +264,6 @@
     width: 100%;
   }
   #alojamiento--casa .foto--exterior {
-    width: 1000px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -270,15 +271,14 @@
     align-content: center;
     gap: 50px;
     padding: 50px;
-    margin: 25px;
-  }
-  #alojamiento--casa .foto--exterior div {
-    width: 700px;
+    margin: auto;
+    min-width: 768px;
+    max-width: 1000px;
   }
   #alojamiento--casa .foto--exterior div img {
     width: 100%;
   }
-  #alojamiento--casa .descrpcion {
+  #alojamiento--casa .descripcion {
     text-align: center;
     font-size: 18px;
     color: #5E2D16;
