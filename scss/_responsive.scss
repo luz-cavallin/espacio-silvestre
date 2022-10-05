@@ -14,6 +14,10 @@
             text-decoration: none;
             border: 1px solid $colorPrincipal;
             border-radius: 15px;
+            a {
+                text-decoration: none;
+                color: $colorTexto;
+            }
 
         }
     }
@@ -40,6 +44,10 @@
             text-decoration: none;
             border: 1px solid $colorSecundario;
             border-radius: 25px;
+            a {
+                text-decoration: none;
+                color: $colorTexto;
+            }
         }
     }
     #informacion { 

@@ -15,6 +15,10 @@
     border: 1px solid #D39E74;
     border-radius: 15px;
   }
+  #intro .btn a {
+    text-decoration: none;
+    color: #5E2D16;
+  }
   #informacion {
     margin: 50px 25px;
     font-size: 15px;
@@ -35,6 +39,10 @@
     text-decoration: none;
     border: 1px solid #FFD4B0;
     border-radius: 25px;
+  }
+  #intro .btn a {
+    text-decoration: none;
+    color: #5E2D16;
   }
   #informacion {
     margin: 50px 25px;
