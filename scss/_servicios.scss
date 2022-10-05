@@ -1,0 +1,175 @@
+@media (min-width: 576px) {
+    #intro--serv {
+        text-align: center;
+        margin: 100px 25px;
+        font-size: 15px;
+        color: $colorTexto;
+        p {
+            color: $colorTexto2;
+        }
+    }
+    
+    #alojamiento--cabana {
+        .cabanas {
+            text-align: center;
+            color: $colorTexto;
+            p {
+                color: $colorFondo;
+            }
+        }
+        .foto--cabana {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            gap: 50px;
+            padding: 25px;
+            margin: 15px;
+            width: 700px;
+            img {
+                width: 100%;
+            }  
+        }
+        .descrpcion {
+            text-align: center;
+            font-size: 15px;
+            color: $colorTexto;
+        }
+    }
+    
+    #alojamiento--casa {
+        .casaCampo {
+            text-align: center;
+            color: $colorTexto;
+            p {
+                color: $colorTexto2;
+            }
+
+        }
+        .foto--casa {
+            display: flex;
+            width: 700px;
+            margin: 15px;
+            img {
+                width: 100%;
+            }
+
+        }
+        .foto--exterior {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            gap: 50px;
+            padding: 25px;
+            margin: 15px;
+            width: 700px;
+            img {
+                width: 100%;
+            }  
+        }
+        .descrpcion {
+            text-align: center;
+            font-size: 15px;
+            color: $colorTexto;
+        }
+    }
+    
+}
+@media (min-width: 768px) {
+    #intro--serv {
+        text-align: center;
+        margin: 100px 25px;
+        font-size: 18px;
+        color: $colorTexto;
+        p {
+            color: $colorTexto2;
+        }
+    }
+    
+    #alojamiento--cabana {
+        .cabanas {
+            text-align: center;
+            color: $colorTexto;
+            p {
+                color: $colorTexto2;
+            }
+        }
+        .foto--cabana {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            gap: 50px;
+            padding: 50px;
+            margin: 15px;
+            width: 100%;
+            img {
+                width: 100%;
+            }  
+        }
+        .descrpcion {
+            text-align: center;
+            font-size: 18px;
+            color: $colorTexto;
+        }
+    }
+    
+    #alojamiento--casa {
+        .casaCampo {
+            text-align: center;
+            color: $colorTexto;
+            p {
+                color: $colorTexto2;
+            }
+
+        }
+        .foto--casa {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            gap: 50px;
+            padding: 50px;
+            margin: 25px;
+            width: 800px;
+            div {
+                width: 700px;
+                img {
+                    width: 100%;
+                }
+    
+            }
+            
+        }
+        .foto--exterior {
+            width: 1000px; 
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            gap: 50px;
+            padding: 50px;
+            margin: 25px;
+            
+            div {
+                width: 700px;
+                img {
+                    width: 100%;
+                }  
+            }
+            
+        }
+        .descrpcion {
+            text-align: center;
+            font-size: 18px;
+            color: $colorTexto;
+        }
+    }
+
+}

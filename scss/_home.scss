@@ -1,0 +1,85 @@
+@media (min-width: $mobile) {
+    #info_quienesSomos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 25px;
+        align-content: center;
+        font-size: 15px; 
+        color: $colorTexto;
+        .contenido {
+            width: 100%;
+            .titulo {
+                margin-bottom: 15px;
+            }
+               
+        }
+        .foto {
+            width: 100%;
+            img {
+                width: 100%;
+            }   
+        }
+    }
+    
+    }
+    #info_veniAConocernos {
+        @extend #info_quienesSomos;
+        .ubicacion {
+            width:100%;
+            .maps {
+                width: 100%;
+                height: 300px;
+            }
+        }
+    }
+    
+    #info_porqueVenir {
+        @extend #info_quienesSomos;
+        flex-direction: column-reverse;
+    }
+
+@media (min-width: $tablet) {
+    #info_quienesSomos {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 50px;
+        padding: 50px;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        color: $colorTexto;
+        .contenido {
+            .titulo {
+                margin-bottom: 15px;
+            }
+            width: 100%;
+        }
+        .foto {
+            width: 100%;
+                img {
+                    width: 100%;
+                }
+        }
+    }
+    #info_porqueVenir {
+        @extend #info_quienesSomos;
+    }
+    #info_veniAConocernos {
+        @extend #info_quienesSomos;
+        flex-direction: column;
+        margin-top: 50px;
+        .ubicacion {
+            width:100%;
+            .maps {
+                width: 100%;
+                height: 300px;
+            }
+        }
+    }
+}

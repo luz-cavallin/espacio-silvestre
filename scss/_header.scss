@@ -1,0 +1,17 @@
+#header {
+    .bg-propio {
+        background-image: url(../img/56c5ff10-980c-462f-ac97-f480f8b0d814.jpg);
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat; 
+        background-size: cover; 
+    }
+    & nav {
+        div {
+            .logo {
+                width: 100px;
+            }
+        }
+    }
+
+}

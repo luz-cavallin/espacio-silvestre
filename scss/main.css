@@ -1,0 +1,283 @@
+@media (min-width: 576px) {
+  body {
+    background: #FFD4B0;
+  }
+  #intro {
+    color: #5E2D16;
+    padding: 40px;
+    text-align: center;
+    font-size: 15px;
+  }
+  #intro .btn {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #D39E74;
+    border-radius: 15px;
+  }
+  #informacion {
+    margin: 50px 25px;
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    background: #81A969;
+  }
+  #intro {
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+  }
+  #intro .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    border: 1px solid #FFD4B0;
+    border-radius: 25px;
+  }
+  #informacion {
+    margin: 50px 25px;
+    font-size: 18px;
+  }
+}
+#header .bg-propio {
+  background-image: url(../img/56c5ff10-980c-462f-ac97-f480f8b0d814.jpg);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header nav div .logo {
+  width: 100px;
+}
+
+@media (min-width: 576px) {
+  #info_quienesSomos, #info_porqueVenir, #info_veniAConocernos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 25px;
+    align-content: center;
+    font-size: 15px;
+    color: #5E2D16;
+  }
+  #info_quienesSomos .contenido, #info_porqueVenir .contenido, #info_veniAConocernos .contenido {
+    width: 100%;
+  }
+  #info_quienesSomos .contenido .titulo, #info_porqueVenir .contenido .titulo, #info_veniAConocernos .contenido .titulo {
+    margin-bottom: 15px;
+  }
+  #info_quienesSomos .foto, #info_porqueVenir .foto, #info_veniAConocernos .foto {
+    width: 100%;
+  }
+  #info_quienesSomos .foto img, #info_porqueVenir .foto img, #info_veniAConocernos .foto img {
+    width: 100%;
+  }
+}
+#info_veniAConocernos .ubicacion {
+  width: 100%;
+}
+#info_veniAConocernos .ubicacion .maps {
+  width: 100%;
+  height: 300px;
+}
+
+#info_porqueVenir {
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 768px) {
+  #info_quienesSomos, #info_veniAConocernos, #info_porqueVenir {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 50px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #5E2D16;
+  }
+  #info_quienesSomos .contenido, #info_veniAConocernos .contenido, #info_porqueVenir .contenido {
+    width: 100%;
+  }
+  #info_quienesSomos .contenido .titulo, #info_veniAConocernos .contenido .titulo, #info_porqueVenir .contenido .titulo {
+    margin-bottom: 15px;
+  }
+  #info_quienesSomos .foto, #info_veniAConocernos .foto, #info_porqueVenir .foto {
+    width: 100%;
+  }
+  #info_quienesSomos .foto img, #info_veniAConocernos .foto img, #info_porqueVenir .foto img {
+    width: 100%;
+  }
+  #info_veniAConocernos {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  #info_veniAConocernos .ubicacion {
+    width: 100%;
+  }
+  #info_veniAConocernos .ubicacion .maps {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media (min-width: 576px) {
+  #intro--serv {
+    text-align: center;
+    margin: 100px 25px;
+    font-size: 15px;
+    color: #5E2D16;
+  }
+  #intro--serv p {
+    color: #35472A;
+  }
+  #alojamiento--cabana .cabanas {
+    text-align: center;
+    color: #5E2D16;
+  }
+  #alojamiento--cabana .cabanas p {
+    color: #81A969;
+  }
+  #alojamiento--cabana .foto--cabana {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    padding: 25px;
+    margin: 15px;
+    width: 700px;
+  }
+  #alojamiento--cabana .foto--cabana img {
+    width: 100%;
+  }
+  #alojamiento--cabana .descrpcion {
+    text-align: center;
+    font-size: 15px;
+    color: #5E2D16;
+  }
+  #alojamiento--casa .casaCampo {
+    text-align: center;
+    color: #5E2D16;
+  }
+  #alojamiento--casa .casaCampo p {
+    color: #35472A;
+  }
+  #alojamiento--casa .foto--casa {
+    display: flex;
+    width: 700px;
+    margin: 15px;
+  }
+  #alojamiento--casa .foto--casa img {
+    width: 100%;
+  }
+  #alojamiento--casa .foto--exterior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    padding: 25px;
+    margin: 15px;
+    width: 700px;
+  }
+  #alojamiento--casa .foto--exterior img {
+    width: 100%;
+  }
+  #alojamiento--casa .descrpcion {
+    text-align: center;
+    font-size: 15px;
+    color: #5E2D16;
+  }
+}
+@media (min-width: 768px) {
+  #intro--serv {
+    text-align: center;
+    margin: 100px 25px;
+    font-size: 18px;
+    color: #5E2D16;
+  }
+  #intro--serv p {
+    color: #35472A;
+  }
+  #alojamiento--cabana .cabanas {
+    text-align: center;
+    color: #5E2D16;
+  }
+  #alojamiento--cabana .cabanas p {
+    color: #35472A;
+  }
+  #alojamiento--cabana .foto--cabana {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    padding: 50px;
+    margin: 15px;
+    width: 100%;
+  }
+  #alojamiento--cabana .foto--cabana img {
+    width: 100%;
+  }
+  #alojamiento--cabana .descrpcion {
+    text-align: center;
+    font-size: 18px;
+    color: #5E2D16;
+  }
+  #alojamiento--casa .casaCampo {
+    text-align: center;
+    color: #5E2D16;
+  }
+  #alojamiento--casa .casaCampo p {
+    color: #35472A;
+  }
+  #alojamiento--casa .foto--casa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    padding: 50px;
+    margin: 25px;
+    width: 500px;
+  }
+  #alojamiento--casa .foto--casa div {
+    width: 700px;
+  }
+  #alojamiento--casa .foto--casa div img {
+    width: 100%;
+  }
+  #alojamiento--casa .foto--exterior {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    padding: 50px;
+    margin: 25px;
+  }
+  #alojamiento--casa .foto--exterior div {
+    width: 700px;
+  }
+  #alojamiento--casa .foto--exterior div img {
+    width: 100%;
+  }
+  #alojamiento--casa .descrpcion {
+    text-align: center;
+    font-size: 18px;
+    color: #5E2D16;
+  }
+}/*# sourceMappingURL=main.css.map */

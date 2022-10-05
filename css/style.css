@@ -62,7 +62,7 @@ body {
         text-align: center;
         font-size: 15px;
     }
-    #quienesSomos {
+    #info_quienesSomos {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -75,7 +75,7 @@ body {
         font-size: 15px;     
     }
 
-    #porqueVenir {
+    #info_porqueVenir {
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
@@ -88,7 +88,7 @@ body {
         font-size: 15px;
     }
 
-    #veniAConocernos {
+    #info_veniAConocernos {
         display: flex;
         flex-flow: column;
         width: 100%;
@@ -103,7 +103,7 @@ body {
 }
 
 @media (min-width: 600px) {
-    #informacion {
+    #informacion { /* contacto */
         margin: 50px 25px;
         font-size: 18px;
     }

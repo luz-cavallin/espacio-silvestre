@@ -1,0 +1,49 @@
+@media (min-width: $mobile) {
+    body {
+        background: $colorSecundario; 
+        
+    }
+    #intro {
+        color: $colorTexto;
+        padding: 40px;
+        text-align: center;
+        font-size: 15px;
+        .btn {
+            display: inline-block;
+            padding: 5px 10px;
+            text-decoration: none;
+            border: 1px solid $colorPrincipal;
+            border-radius: 15px;
+
+        }
+    }
+    #informacion {
+        margin: 50px 25px;
+        font-size: 15px;
+    }
+
+   
+}
+
+@media (min-width: $tablet) {
+    body {
+        background: $colorFondo;
+    }
+    #intro {
+        padding: 40px;
+        text-align: center;
+        font-size: 20px;
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            text-decoration: none;
+            border: 1px solid $colorSecundario;
+            border-radius: 25px;
+        }
+    }
+    #informacion { 
+        margin: 50px 25px;
+        font-size: 18px;
+    }
+}
+
