@@ -18,15 +18,7 @@
             }
         }
         .foto--cabana {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-            gap: 50px;
-            padding: 25px;
-            margin: 15px;
-            min-width: 400px;
+            @include foto-mobile;
             img {
                 width: 100%;
             }  
@@ -57,15 +49,7 @@
 
         }
         .foto--exterior {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-            gap: 50px;
-            padding: 25px;
-            margin: 15px;
-            min-width: 400px;
+            @include foto-mobile;
             img {
                 width: 100%;
             }  
@@ -98,16 +82,7 @@
             }
         }
         .foto--cabana {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            align-content: center;
-            gap: 50px;
-            padding: 50px;
-            margin: auto;
-            min-width: 768px;
-            
+            @include foto-tablet; 
             div {
                 width: 100%;
                 img {
@@ -134,15 +109,7 @@
 
         }
         .foto--casa {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-            gap: 50px;
-            padding: 50px;
-            margin: auto;
-            min-width: 768px;
+            @include foto-tablet;
             max-width: 1000px;
             div {
                 width: 100%;
@@ -154,18 +121,8 @@
             
         }
         .foto--exterior { 
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-            gap: 50px;
-            padding: 50px;
-            margin: auto;
-            min-width: 768px;
+            @include foto-tablet;
             max-width: 1000px;
-            
-            
             div {
                 img {
                     width: 100%;
