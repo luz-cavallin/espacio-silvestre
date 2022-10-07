@@ -1,4 +1,4 @@
-@media (min-width: 576px) {
+@media (min-width: $mobile) {
     #opiniones {
         color: $colorTexto;
         padding: 40px;
@@ -16,7 +16,7 @@
     } 
 } 
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
     #opiniones {
         color: $colorTexto;
         padding: 40px;

@@ -1,4 +1,10 @@
-@media (min-width: 576px) {
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+@media (min-width: 360px) {
   body {
     background: #FFD4B0;
   }
@@ -61,7 +67,7 @@
   width: 100px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 360px) {
   #info_quienesSomos, #info_porqueVenir, #info_veniAConocernos {
     width: 100%;
     display: flex;
@@ -136,7 +142,7 @@
     height: 300px;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 360px) {
   #intro--serv {
     text-align: center;
     margin: 100px 25px;
@@ -161,8 +167,8 @@
     align-content: center;
     gap: 50px;
     padding: 25px;
-    margin: 15px;
-    min-width: 400px;
+    margin: auto;
+    min-width: 360px;
   }
   #alojamiento--cabana .foto--cabana img {
     width: 100%;
@@ -182,7 +188,7 @@
   #alojamiento--casa .foto--casa {
     display: flex;
     margin: 15px;
-    min-width: 400px;
+    min-width: 360px;
   }
   #alojamiento--casa .foto--casa img {
     width: 100%;
@@ -195,8 +201,8 @@
     align-content: center;
     gap: 50px;
     padding: 25px;
-    margin: 15px;
-    min-width: 400px;
+    margin: auto;
+    min-width: 360px;
   }
   #alojamiento--casa .foto--exterior img {
     width: 100%;
@@ -293,7 +299,7 @@
     color: #5E2D16;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 360px) {
   #cabanaFoto {
     color: #5E2D16;
     padding: 40px;
@@ -337,7 +343,7 @@
     margin-bottom: 25px;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 360px) {
   #opiniones {
     color: #5E2D16;
     padding: 40px;

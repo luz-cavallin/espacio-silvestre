@@ -1,4 +1,4 @@
-@media (min-width: 576px) {
+@media (min-width: $mobile) {
     #cabanaFoto {
         color: $colorTexto;
         padding: 40px;
@@ -26,7 +26,7 @@
 
 
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
     #cabanaFoto {
         color: $colorTexto;
         padding: 40px;

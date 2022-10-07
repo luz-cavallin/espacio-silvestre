@@ -1,10 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+
 $colorPrincipal: #D39E74;
 $colorSecundario: #FFD4B0;
 $colorFondo: #81A969;
 $colorTexto: #5E2D16;
 $colorTexto2: #35472A;
 
-$mobile: 576px;
+$mobile: 360px;
 $tablet: 768px;
 $desktop: 1200px;
 
