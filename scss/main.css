@@ -57,7 +57,7 @@
   }
 }
 #header .bg-propio {
-  background-image: url(../img/IMG_1629.jpg);
+  background: url(../img/IMG_1629.jpg);
   width: 100%;
   height: auto;
   background-repeat: no-repeat;
